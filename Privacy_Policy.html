@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — BarrierDuel</title>
+<style>
+  body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #1a1a1a; }
+  h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+  h2 { margin-top: 32px; color: #222; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; vertical-align: top; }
+  th { background: #f2f2f2; }
+  code { background: #f2f2f2; padding: 2px 5px; border-radius: 3px; }
+  .updated { color: #666; font-size: 0.9em; }
+  .contact { background: #f7f7f7; padding: 16px; border-radius: 6px; margin-top: 8px; }
+  .dev-note { background: #fff8e1; border-left: 4px solid #f5a623; padding: 14px 18px; margin: 20px 0; border-radius: 4px; }
+  .dev-note summary { cursor: pointer; font-weight: 600; color: #7a5200; }
+  .dev-note[open] summary { margin-bottom: 8px; }
+  .dev-note ul { margin: 8px 0; }
+  .todo { background: #ffecec; border-left: 4px solid #d32f2f; padding: 10px 16px; margin: 10px 0; border-radius: 4px; font-size: 0.92em; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for BarrierDuel</h1>
+<p class="updated">Last updated: August 26, 2026</p>
+
+<details class="dev-note" open>
+<summary>📋 Note for the Google Play reviewer</summary>
+<p>This section is here to make review faster and is not a legal term of the policy itself.</p>
+<ul>
+  <li><strong>App type:</strong> BarrierDuel is a 2-player, offline, local strategy board game (a Quoridor-style game). There is no server backend, no user accounts, and no login of any kind.</li>
+  <li><strong>Why INTERNET / ACCESS_NETWORK_STATE permissions are requested:</strong> solely to load Google AdMob banner and interstitial ads. All gameplay logic works fully offline.</li>
+  <li><strong>Ad SDK in use:</strong> Google AdMob (<code>play-services-ads</code>) with Google's User Messaging Platform (UMP) for consent, per Section 3 below.</li>
+  <li><strong>Child-directed treatment:</strong> the app shows an in-app age screen (see Section 4) before any ad SDK activity occurs, and applies Google's child-directed / non-personalized ad flags automatically when a child is indicated. This is implemented at the code level (<code>AdsInitializer</code>, <code>AudienceMode</code>), not just declared in text.</li>
+  <li><strong>Data stored:</strong> only on-device, via Android DataStore/SharedPreferences — optional player nicknames, in-game (virtual, non-purchasable) coin balance, settings, and language preference. None of it is transmitted to us or any third party we control.</li>
+  <li><strong>No analytics, crash reporting, or tracking SDKs</strong> are present in the app beyond what Google's ad/consent SDKs collect on their own behalf.</li>
+</ul>
+</details>
+
+<p>
+This Privacy Policy explains how BarrierDuel ("the App", "we", "us") handles information
+when you use the app. BarrierDuel is a strategy board game (a Quoridor-style game) for Android.
+The App's core gameplay works entirely offline and does not require an account, sign-in, or
+internet connection to play.
+</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>We do not operate our own servers and do not collect or store your data ourselves.</li>
+  <li>All game data (player nicknames, coin balance, settings, playtime) is stored only on your device.</li>
+  <li>The App shows ads via Google AdMob, which may collect data as described below.</li>
+  <li>The App includes an age screen and applies stricter, non-personalized, child-safe ad settings for players who indicate they are children.</li>
+  <li>We do not knowingly collect personal information from children beyond what is described here.</li>
+</ul>
+
+<h2>1. Information Stored Locally On Your Device</h2>
+<p>The App uses Android's local storage (DataStore) to save your preferences and progress. This data stays on your device, is never transmitted to us, and is deleted if you clear the app's data or uninstall it.</p>
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>Player nickname(s)</td><td>Optional display names you enter for Player 1 / Player 2 in local matches. Not linked to any account, never sent anywhere.</td></tr>
+  <tr><td>Age-screen response (child / standard)</td><td>Determines whether the App applies child-directed, non-personalized ad settings.</td></tr>
+  <tr><td>In-game coin balance &amp; unlocked pawn skins/board themes</td><td>Cosmetic virtual currency and unlocks, earned through play. No real-money purchases are made in the App.</td></tr>
+  <tr><td>Total playtime</td><td>Used only to space out how often interstitial ads are shown.</td></tr>
+  <tr><td>Game settings (sound, board theme, etc.)</td><td>Remembers your preferences between sessions.</td></tr>
+  <tr><td>Language / locale choice</td><td>Remembers your selected app language between sessions.</td></tr>
+</table>
+
+<h2>2. Information Collected by Advertising Partners</h2>
+<p>
+The App displays banner and interstitial ads using <strong>Google AdMob</strong>. To show ads,
+Google Mobile Ads SDK may collect and process information such as your advertising ID,
+IP address, device information, and general location, and may set identifiers used for ad
+delivery and (where permitted) ad personalization. This processing is carried out by Google,
+not by us — we do not receive or store this data ourselves.
+</p>
+<p>
+The App requests the <code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code> permissions
+solely so ads can be requested and loaded; these permissions are not used for any other purpose,
+and all gameplay logic runs fully offline.
+</p>
+<p>You can review Google's practices here:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+  <li><a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information from partner sites or apps</a></li>
+</ul>
+
+<h2>3. Consent for Ads (GDPR / UK / US State Privacy Laws)</h2>
+<p>
+For players who indicate they are not children, the App uses Google's <strong>User Messaging
+Platform (UMP)</strong> to check whether consent or a disclosure is legally required in your
+region (for example under GDPR in the EEA/UK, or applicable U.S. state privacy laws) and, if so,
+shows you Google's consent form before requesting personalized ads. In most regions no form is
+required and this happens invisibly. You can change your consent choice at any time from the
+App's Settings screen (where a "Privacy / Ad Choices" option is provided) or by clearing app data,
+which resets the consent flow.
+</p>
+
+<h2>4. Children's Privacy &amp; the Age Screen</h2>
+<p>
+BarrierDuel is an all-ages game, and on first launch it asks whether the current player is a
+child. This choice is not sent to us or stored anywhere except on your own device.
+</p>
+<ul>
+  <li>If <strong>"child"</strong> is selected: the App tells Google's ad SDK to treat all ad requests as
+  child-directed and made under the age of consent. Ads are always <strong>non-personalized</strong>
+  and capped to "G" (general audience) content — no ad personalization consent is ever requested
+  from a child, consistent with the Children's Online Privacy Protection Act (COPPA) and Google Play
+  Families Policy.</li>
+  <li>If <strong>"standard"</strong> is selected: ads are capped to "PG" content, and the consent flow
+  described in Section 3 applies.</li>
+</ul>
+<p>
+We do not knowingly collect personal information (such as names, contact details, or precise
+location) from any player, child or adult — the only "personal" data in the App (an optional
+nickname) is stored solely on-device and never leaves it.
+</p>
+
+<h2>5. Data Sharing</h2>
+<p>
+We do not sell, rent, or share any personal information, because we do not collect or hold any
+ourselves. The only third party involved is Google (AdMob / UMP) for ad delivery and consent
+management, as described above.
+</p>
+
+<h2>6. Data Retention &amp; Deletion</h2>
+<p>
+Locally stored data (nickname, coins, settings, playtime, age-screen choice) persists on your
+device until you clear the App's storage or uninstall it, at which point it is permanently
+deleted. Since we hold no copy of this data on any server, there is nothing further for us to
+delete on request. Data that Google's ad SDKs may have collected is governed by Google's own
+retention practices — see the Google Privacy Policy linked above.
+</p>
+
+<h2>7. Your Choices</h2>
+<ul>
+  <li><strong>Reset ad consent:</strong> use the Settings screen's privacy option, or clear the App's storage in Android Settings → Apps → BarrierDuel → Storage → Clear Data.</li>
+  <li><strong>Limit ad tracking:</strong> use your device's ad settings (Settings → Google → Ads → "Opt out of Ads Personalization" / "Delete advertising ID").</li>
+  <li><strong>Delete all local data:</strong> uninstall the App, or clear its storage as above.</li>
+</ul>
+
+<h2>8. Children Under 13 (or applicable age in your region)</h2>
+<p>
+If a parent or guardian believes a child has provided personal information to us directly (outside
+the age-gated, non-personalized flow described above), please contact us using the details below so
+we can address it — though as noted, we do not operate servers that receive such information.
+</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>
+We may update this Privacy Policy from time to time, for example to reflect changes in the App's
+features or in applicable law. The "Last updated" date at the top will reflect the latest revision.
+Continued use of the App after changes take effect constitutes acceptance of the updated policy.
+</p>
+
+<h2>10. Contact Us</h2>
+<div class="contact">
+<p>If you have questions about this Privacy Policy or the App's data practices, contact:</p>
+<p><strong>Email:</strong> [agrohacreations1@gmail.com]<br></p>
+</div>
+
+</body>
+</html>
